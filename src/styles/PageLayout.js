@@ -55,13 +55,7 @@ export const FooterWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 100%;
     padding: 70px;
-
-    ${media.lessThan('large')`
-    max-width: 800px;
-  `}
   }
 
   footer > img {
