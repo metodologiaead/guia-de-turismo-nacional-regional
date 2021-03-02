@@ -47,8 +47,11 @@ export const Container = styled.header`
   }
 
   .buttonTell {
-    outline: none;
-    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
     cursor: pointer;
 
     font-weight: bold;
@@ -65,9 +68,6 @@ export const Container = styled.header`
   }
 
   .buttonTell:hover {
-    outline: none;
-    border: 0;
-
     background-color: ${(props) => props.theme.buttonSecondary};
   }
 

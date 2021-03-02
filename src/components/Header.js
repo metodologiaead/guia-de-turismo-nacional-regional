@@ -1,5 +1,6 @@
 import React from 'react'
 import { RiEyeFill, RiEyeCloseFill } from 'react-icons/ri'
+import { Link } from 'gatsby'
 
 import * as Styled from '../styles/HeaderLayout'
 import { ButtonGhost } from '../styles/ButtonLayout'
@@ -16,7 +17,14 @@ const Header = ({ mode, toggleMode }) => (
           <span>Modo Leitura</span>
           {mode === 'light' ? <RiEyeFill /> : <RiEyeCloseFill />}
         </ButtonGhost>
-        <button className="buttonTell">(82) 99976-2839</button>
+        <Link
+          className="buttonTell"
+          href="tel:82999762839"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          (82) 99976-2839
+        </Link>
       </div>
     </div>
     <div className="TitleContent">
