@@ -4,7 +4,8 @@
 import React, { useState } from "react";
 import MaskedInput from 'react-text-mask'
 import { Container, InputBox, InputBoxInput, Label, InputSubmit } from '../styles/SubscribeLayout'
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
+
 toast.configure()
 
 const Subscribe = () => {
@@ -64,6 +65,7 @@ const Subscribe = () => {
 
     return (
         <Container >
+            <ToastContainer />
         <form onSubmit={handleSubmit}>
             <InputBox>
                 <InputBoxInput 
