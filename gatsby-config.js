@@ -26,6 +26,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          'AW-408801215', // Google Ads / Adwords / AW
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://transacoes-imobiliarias.metodologiaead.com.br/`,
