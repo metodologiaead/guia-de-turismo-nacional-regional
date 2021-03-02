@@ -26,12 +26,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        id: 'AW-408801215',
-      },
-    },
-    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://transacoes-imobiliarias.metodologiaead.com.br/`,
