@@ -29,7 +29,7 @@ const SEO = ({ children, title, description, image, location }) => {
       <meta property="og:title" content={title} key="ogtitle" />
       <meta property="og:description" content={description} key="ogdesc" />
       <meta propery="og:site_name" content={site.siteMetadata.title} key="ogsitename" />
-      <meta property="og:image" content={image || `${Favicon}`} />
+      <meta property="og:image" content={image || '/banner-f93cbbf0041e1786207209d6246b7e59.png'} />
       {location && <meta property="og:url" content={location.href} />}
 
       <meta name="twitter:title" content={title} />

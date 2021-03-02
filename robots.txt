@@ -1,6 +1,4 @@
-User-agent: Googlebot
-User-agent: Googlebot-images
-User-agent: Adsbot-Google
-User-agent: Mediapartners-Google
-
+User-agent: *
+Allow: /
 Sitemap: https://transacoes-imobiliarias.metodologiaead.com.br/sitemap.xml
+Host: https://transacoes-imobiliarias.metodologiaead.com.br

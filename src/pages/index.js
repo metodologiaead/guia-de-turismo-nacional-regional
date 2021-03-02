@@ -12,7 +12,7 @@ import Sidebar from '../components/Sidebar'
 
 const HomePage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="Técnico em Transações Imobiliárias" />
     <Container>
       <MainWrapper>
         <Banner />
