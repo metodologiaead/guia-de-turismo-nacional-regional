@@ -4,7 +4,8 @@
 import React, { useState } from "react";
 import MaskedInput from 'react-text-mask'
 import { Container, InputBox, InputBoxInput, Label, InputSubmit } from '../styles/SubscribeLayout'
-
+import { toast } from 'react-toastify';
+toast.configure()
 
 const Subscribe = () => {
 
@@ -46,11 +47,13 @@ const Subscribe = () => {
 
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                alert(xhr.responseText); // Returns a 200 response if the submission is successful.
+                toast.success("Mensagem enviada com sucesso!")
             } else if (xhr.readyState === 4 && xhr.status === 403) {
-                alert(xhr.responseText); // Returns a 403 error if the portal isn't allowed to post submissions.     
+                toast.error("Ooops! Acesso Proibido.");      
             } else if (xhr.readyState === 4 && xhr.status === 404) {
-                alert(xhr.responseText); //Returns a 404 error if the formGuid isn't found    
+                toast.warn("Ooops! Servidor não encontrado.");  
+            } else if (xhr.readyState === 4 && xhr.status === 400) {
+                toast.info("Ooops! Há algo de errado com seu email.");
             }
         }
         // Sends the request 
