@@ -16,7 +16,7 @@ const Subscribe = () => {
 
         evt.preventDefault();
         var xhr = new XMLHttpRequest();
-        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/7458896/eb339c66-9139-4caf-890d-4adcc0589f1d'
+        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/7458896/415e2c3c-2d02-4eea-881b-77930aa0cc39'
         var data = {
             "fields": [
                 {

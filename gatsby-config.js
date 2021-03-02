@@ -4,13 +4,33 @@ module.exports = {
     siteUrl: 'https://transacoes-imobiliarias.metodologiaead.com.br',
     description: 'Organiza ações de compra venda e locação de imóveis.',
     author: `Metodologia EAD`,
-    image: '/logo.png',
   },
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '944880872583095',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-P3RCDPV',
+        includeInDevelopment: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://transacoes-imobiliarias.metodologiaead.com.br/`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
