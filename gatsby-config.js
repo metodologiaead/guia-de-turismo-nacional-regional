@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        id: '408801215',
+        id: 'AW-408801215',
       },
     },
     {
