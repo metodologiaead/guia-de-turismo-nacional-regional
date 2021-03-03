@@ -35,7 +35,7 @@ export default function SectionPopper() {
       <div>
           <button aria-describedby={left} type="button" onClick={handleClickLeft}>
             <HamburgerWrapper>
-              { anchorEl === null ? <Menu1 alt="Menu Hamburger"/> : <Menu2 alt="Menu Hamburger"/>}
+              { anchorEl === null ? <div><span>Clique para Abrir</span><Menu1 alt="Menu Hamburger"/></div> : <div><span>Clique para Fechar</span><Menu2 alt="Menu Hamburger"/></div>}
             </HamburgerWrapper>
             Conteúdo detalhado
           </button>
@@ -43,7 +43,7 @@ export default function SectionPopper() {
       <div>
           <button aria-describedby={right} type="button" onClick={handleClickRight}>
             <HamburgerWrapper>
-              { anchorE2 === null ? <Menu1 alt="Menu Hamburger"/> : <Menu2 alt="Menu Hamburger"/>}
+            { anchorE2 === null ? <div><span>Clique para Abrir</span><Menu1 alt="Menu Hamburger"/></div> : <div><span>Clique para Fechar</span><Menu2 alt="Menu Hamburger"/></div>}
             </HamburgerWrapper>
             Informações Importantes
           </button>

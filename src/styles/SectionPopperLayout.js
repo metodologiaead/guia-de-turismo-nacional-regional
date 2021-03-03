@@ -41,8 +41,6 @@ export const Container = styled.section`
     color: ${(props) => props.theme.textTertiary};
     }
 
-
-
 `
 
 export const PooperWrapper = styled.div`
@@ -111,6 +109,15 @@ export const PooperWrapper = styled.div`
 export const HamburgerWrapper = styled.div`
     display: flex;
     justify-content: flex-end;
+
+    div {
+      display: flex;
+    }
+    span {
+      font-size: 0.5rem;
+      margin-right: 5px;
+      transform: translateY(-12px);
+    }
 `
 
 export const Menu1 = styled(ImMenu4)`
