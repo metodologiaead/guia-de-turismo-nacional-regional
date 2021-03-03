@@ -10,11 +10,13 @@ export const Container = styled.section`
     min-height: 100vh;
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         font-weight: 800;
         color: ${(props) => props.theme.textPrimary};
 
         text-align: center;
+
+        margin-bottom: 10px;
     }
 
     .contentWrapper {
@@ -25,25 +27,25 @@ export const Container = styled.section`
 
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 0.8rem;
             font-weight: 800;
             color: ${(props) => props.theme.textPrimary};
             text-align: center;
         }
 
         h3 {
-            font-size: 1rem;
+            font-size: 0.8rem;
             color: ${(props) => props.theme.textPrimary};
 
             span {
-                font-size: 1rem;
+                font-size: 0.8rem;
                 color: #D93B58;
                 text-decoration-line: line-through;
             }
         }
 
         h4 {
-            font-size: 1.5rem;
+            font-size: 0.8rem;
             color: ${(props) => props.theme.textPrimary};
 
             span {
@@ -53,9 +55,9 @@ export const Container = styled.section`
             }
 
             img {
-                width: 30px;
-                height: 30px;
-                margin-left: 20px;
+                width: 20px;
+                height: 20px;
+                margin-left: 10px;
             }
         }
 

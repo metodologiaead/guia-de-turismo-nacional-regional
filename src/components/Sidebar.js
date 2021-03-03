@@ -19,10 +19,10 @@ const Sidebar = () => {
               <h4><span>R$ 700,00</span> à vista.</h4>
             </div><br />
             <div>
-              <h4><span>R$ 66,66</span> em 12x <br/>no cartão. <img src={IconCredito} alt="Cartão" /></h4>
+              <h4><span>R$ 66,66</span> em 12x no cartão. <img src={IconCredito} alt="Cartão" /></h4>
             </div><br />
             <div>
-              <h4><span>R$ 83,33</span> em 12x <br />no boleto. <img src={IconBoleto} alt="Boleto" /></h4>
+              <h4><span>R$ 83,33</span> em 12x no boleto. <img src={IconBoleto} alt="Boleto" /></h4>
             </div>
           </div>
           <h2>Matricule-se Já!</h2>
