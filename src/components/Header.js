@@ -25,7 +25,8 @@ const Header = ({ mode, toggleMode }) => (
       <h2>Curso online de:</h2>
       <h3>
         Técnico em <br />
-        TRANSAÇÕES IMOBILIÁRIAS
+        TRANSAÇÕES IMOBILIÁRIAS <br />
+        Totalmente EAD
       </h3>
     </div>
   </Styled.Container>
