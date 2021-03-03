@@ -8,7 +8,9 @@ export const Container = styled.section`
   width: 100%;
   height: auto;
 
-  padding: 10px;
+  div {
+    margin-left: 10px;
+  }
 
   h2 {
     font-size: 1.3rem;

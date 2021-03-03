@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components'
+import media from 'styled-media-query'
 import Banner from '../assets/images/banner.png'
 
 export const Container = styled.section`
@@ -12,4 +13,8 @@ export const Container = styled.section`
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+
+    ${media.lessThan('small')`
+    background-size: cover;
+  `}
 `

@@ -1,6 +1,8 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable quotes */
 import styled from "styled-components"
+import media from 'styled-media-query'
+
 import Broker  from "../assets/images/broker-illustration.png"
 
 
@@ -29,6 +31,10 @@ export const Container = styled.section`
         padding: 10px;
 
         margin-left: 20px;
+
+        ${media.lessThan("small")`
+            width: 250px;
+  `}
     }
 
     li {

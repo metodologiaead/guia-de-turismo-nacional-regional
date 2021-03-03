@@ -10,14 +10,14 @@ export const Container = styled.header`
   width: 100%;
   min-height: 387px;
 
-  ${media.lessThan('large')`
-    min-height: auto;
-  `}
-
   background-image: url(${ImageHeader});
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
+
+  ${media.lessThan('small')`
+      height: auto;
+  `}
 
   .nav {
     display: flex;
@@ -32,6 +32,16 @@ export const Container = styled.header`
     ${media.lessThan('large')`
     min-width: 800px;
     padding: 10px;
+  `}
+
+    ${media.lessThan('medium')`
+    min-width: 700px;
+    padding: 10px;
+  `}
+
+  ${media.lessThan('small')`
+    flex-direction: column;
+    min-width: 100px;
   `}
   }
 
@@ -89,24 +99,29 @@ export const Container = styled.header`
     ${media.lessThan('large')`
     min-width: 800px;
   `}
-  }
 
-  .TitleContent div {
-    padding: 60px;
+    ${media.lessThan('medium')`
+    min-width: 700px;
+  `}
 
-    ${media.lessThan('large')`
-    padding: 40px;
+    ${media.lessThan('small')`
+    min-width: 280px;
+    height: auto;
   `}
   }
 
-  .TitleContent div h2 {
+  .TitleContent h2 {
     font-size: 1.5rem;
     color: ${(props) => props.theme.textPrimary};
   }
 
-  .TitleContent div h3 {
+  .TitleContent h3 {
     font-size: 2rem;
     font-weight: 800;
     color: ${(props) => props.theme.textPrimary};
+
+    ${media.lessThan('small')`
+    width: 280px;
+  `}
   }
 `

@@ -19,6 +19,12 @@ export const Container = styled.div`
   ${media.lessThan('large')`
     grid-template-columns: 640px 334px;
   `}
+
+  ${media.lessThan('medium')`
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 'M';
+  `}
 `
 
 export const MainWrapper = styled.main`
@@ -40,6 +46,10 @@ export const SidebarWrapper = styled.div`
   top: 0;
 
   background-color: #5f92eb;
+
+  ${media.lessThan('medium')`
+    display: none;
+  `}
 `
 
 export const FooterWrapper = styled.section`
@@ -56,6 +66,10 @@ export const FooterWrapper = styled.section`
     flex-direction: column;
     align-items: center;
     padding: 70px;
+
+    ${media.lessThan('medium')`
+    padding: 20px;
+  `}
   }
 
   footer > img {
@@ -69,6 +83,10 @@ export const FooterWrapper = styled.section`
     color: ${(props) => props.theme.textPrimary};
     margin-top: 10px;
     text-align: center;
+
+    ${media.lessThan('small')`
+    font-size: 0.8rem;
+  `}
   }
 
   .copy {
@@ -83,5 +101,10 @@ export const FooterWrapper = styled.section`
     color: #f2f2f2;
 
     font-size: 1rem;
+
+    ${media.lessThan('small')`
+    font-size: 0.6rem;
+    text-align: center;
+  `}
   }
 `

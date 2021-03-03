@@ -10,6 +10,14 @@ export const Container = styled.section`
 
   padding: 32px 10px;
 
+  ${media.lessThan('small')`
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 52px 10px 0 10px;
+  `}
+
   button {
     border: none;
     outline: none;
@@ -45,6 +53,10 @@ export const PooperWrapper = styled.div`
 
   ${media.lessThan('large')`
   max-width: 280px;
+  `}
+
+  ${media.lessThan('small')`
+    height: 350px;
   `}
 
   overflow: auto;

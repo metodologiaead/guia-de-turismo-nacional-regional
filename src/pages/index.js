@@ -9,6 +9,7 @@ import Complementacao from '../components/Complementacao'
 import SectionPopper from '../components/SectionPopper'
 import Abstract from '../components/Abstract'
 import Sidebar from '../components/Sidebar'
+import SidebarMobile from '../components/SidebarMobile'
 
 const HomePage = () => (
   <>
@@ -20,6 +21,7 @@ const HomePage = () => (
         <CertificacoesObtidas />
         <Complementacao />
         <SectionPopper />
+        <SidebarMobile />
       </MainWrapper>
       <Abstract />
       <SidebarWrapper>

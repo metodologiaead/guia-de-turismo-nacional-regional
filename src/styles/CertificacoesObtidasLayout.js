@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const Container = styled.section`
     flex: 1;
@@ -30,6 +31,11 @@ export const Container = styled.section`
         font-weight: 800;
         color: ${(props) => props.theme.textPrimary}
     }
+
+    ${media.lessThan('small')`
+        height: auto;
+        padding: 20px 0;
+  `}
     
     .BoxsWrapper {
         display: grid;
@@ -38,6 +44,11 @@ export const Container = styled.section`
 
         margin-top: 40px;
         padding: 0 30px;
+
+        ${media.lessThan('small')`
+            display: flex;
+            flex-direction: column
+        `}
     }
 
     .BoxsWrapper div {
