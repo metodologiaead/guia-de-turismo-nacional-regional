@@ -10,6 +10,7 @@ import SectionPopper from '../components/SectionPopper'
 import Abstract from '../components/Abstract'
 import Sidebar from '../components/Sidebar'
 import SidebarMobile from '../components/SidebarMobile'
+import PresentationVideo from '../components/PresentationVideo'
 
 const HomePage = () => (
   <>
@@ -17,6 +18,7 @@ const HomePage = () => (
     <Container>
       <MainWrapper>
         <Banner />
+        <PresentationVideo />
         <SobreOCurso />
         <CertificacoesObtidas />
         <Complementacao />

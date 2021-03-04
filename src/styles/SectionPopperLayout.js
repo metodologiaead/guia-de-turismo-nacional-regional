@@ -22,6 +22,7 @@ export const Container = styled.section`
     border: none;
     outline: none;
     cursor: pointer;
+    text-decoration: underline;
 
     background-color: ${(props) => props.theme.background};
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);

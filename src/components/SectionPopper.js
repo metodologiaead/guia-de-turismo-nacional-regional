@@ -37,7 +37,7 @@ export default function SectionPopper() {
             <HamburgerWrapper>
               { anchorEl === null ? <div><span>Clique para Abrir</span><Menu1 alt="Menu Hamburger"/></div> : <div><span>Clique para Fechar</span><Menu2 alt="Menu Hamburger"/></div>}
             </HamburgerWrapper>
-            Conteúdo detalhado
+            🖱️ Conteúdo detalhado
           </button>
       </div>
       <div>
@@ -45,7 +45,7 @@ export default function SectionPopper() {
             <HamburgerWrapper>
             { anchorE2 === null ? <div><span>Clique para Abrir</span><Menu1 alt="Menu Hamburger"/></div> : <div><span>Clique para Fechar</span><Menu2 alt="Menu Hamburger"/></div>}
             </HamburgerWrapper>
-            Informações Importantes
+            🖱️ Informações Importantes
           </button>
       </div>
       <Popper id={left} open={openLeft} anchorEl={anchorEl} transition>
