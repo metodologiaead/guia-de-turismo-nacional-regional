@@ -22,7 +22,8 @@ const Header = ({ mode, toggleMode }) => (
       </div>
     </div>
     <div className="TitleContent">
-      <h2>Curso online de:</h2>
+      <h3>Seja um corretor de imóveis</h3>
+      <h2>com nosso curso de:</h2>
       <h3>
         Técnico em <br />
         TRANSAÇÕES IMOBILIÁRIAS <br />
