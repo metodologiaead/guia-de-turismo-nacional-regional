@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import MaskedInput from 'react-text-mask'
 import { Container, InputBox, InputBoxInput, Label, InputSubmit } from '../styles/SubscribeLayout'
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 toast.configure()
 
@@ -18,7 +19,7 @@ const Subscribe = () => {
 
         evt.preventDefault();
         var xhr = new XMLHttpRequest();
-        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/7458896/415e2c3c-2d02-4eea-881b-77930aa0cc39'
+        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/7458896/"a89b64ff-f290-49c6-8d46-aa8c3fac801c'
         var data = {
             "fields": [
                 {
@@ -35,8 +36,8 @@ const Subscribe = () => {
                 },
             ],
             "context": {
-                "pageUri": "https://transacoes-imobiliarias.metodologiaead.com.br",
-                "pageName": "Técnico em Transações Imobiliarias"
+                "pageUri": "https://guia-de-turismo-nacional-regional.metodologiaead.com.br",
+                "pageName": "Curso Técnico em Guia de Turísmo Nacional/Regional"
             },
         }
         console.log(data)

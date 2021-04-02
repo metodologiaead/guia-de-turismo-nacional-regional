@@ -22,11 +22,11 @@ const Header = ({ mode, toggleMode }) => (
       </div>
     </div>
     <div className="TitleContent">
-      <h3>Seja um corretor de imóveis</h3>
+      <h3>Seja um Guia de Turismo Reginal</h3>
       <h2>com nosso curso de:</h2>
       <h3>
         Técnico em <br />
-        TRANSAÇÕES IMOBILIÁRIAS <br />
+        GUIA DE TURÍSMO NACIONAL/REGIONAL <br />
         Totalmente EAD
       </h3>
     </div>

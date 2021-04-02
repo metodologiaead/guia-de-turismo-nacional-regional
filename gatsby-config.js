@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Curso Técnico em Transações Imobiliárias`,
-    siteUrl: 'https://transacoes-imobiliarias.metodologiaead.com.br',
-    description: 'Organiza ações de compra venda e locação de imóveis.',
+    title: `Curso Técnico em Guia de Turismo Nacional/Regional`,
+    siteUrl: 'https://guia-de-turismo-nacional-regional.metodologiaead.com.br',
+    description: 'Planejamento, execução e avaliação de viagens.',
     author: `Metodologia EAD`,
   },
   plugins: [
@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://transacoes-imobiliarias.metodologiaead.com.br/`,
+        siteUrl: `https://guia-de-turismo-nacional-regional.metodologiaead.com.br`,
       },
     },
     {

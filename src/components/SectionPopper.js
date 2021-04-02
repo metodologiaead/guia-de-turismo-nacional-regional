@@ -53,34 +53,35 @@ export default function SectionPopper() {
           <Fade {...TransitionProps} timeout={350}>
             <div className={classes.paper}>
               <PooperWrapper>
-                <h2>Componentes Curriculares = cursos Isolados</h2>
+                <h2>Componentes Curriculares = Cursos Isolados</h2>
                 <ul>
                   <li>Introdução a Administração - sg</li>
                   <li>Empreendedorismo - sg</li>
-                  <li>Introdução ao Empreendedorismo - rd</li>
-                  <li>Teorias Aplicadas na Administração - sg</li>
                   <li>Matemática Financeira - sg</li>
-                  <li>Introdução a Matemática Financeira - rd</li>
-                  <li>Gestão da Qualidade Total - sg</li>
-                  <li>Modelos de Gestão - sg</li>
-                  <li>Organização, Sistemas e Métodos - sg</li>
-                  <li>Processos Gerenciais - sg</li>
+                  <li>Marketing de Serviços - sg</li>
+                  <li>Serviços de Turismo e Viagens - dr</li>
+                  <li>Revisão Geografia Geral - dr</li>
+                  <li>Revisão História Geral - dr</li>
+                  <li>Marketing Digital - sg</li>
+                  <li>Fundamentos do Espanhol - sg</li>
+                  <li>Fundamentos do Inglês - sg</li>
+                  <li>Projeto Pratico em Turismo I</li>
+                  <li>Elaboração de Roteiros e Pacotes - dr</li>
+                  <li>Antropologia e Cultura - sg</li>
                   <li>Introdução a Técnicas de Negociação - rd</li>
                   <li>Gestão de Vendas e Negociação - sg</li>
-                  <li>Introdução a Teoria Geral dos Contratos - sg</li>
-                  <li>Introdução ao Direito do Consumidor - sg</li>
-                  <li>Administração de Imóveis e Locação - ies</li>
-                  <li>Marketing Digital</li> 
+                  <li>Teoria da História e Historiografia</li> 
+                  <li>Gestão da Qualidade Total - sg</li>
+                  <li>Marketing de Serviços voltado ao Turismo - dr</li>
+                  <li>Projeto Pratico em Turismo II</li>
+                  <li>Historia da Arte - sg</li>
+                  <li>Multimodalidade Turística - dr</li>
                   <li>Análise de Mídias Sociais - rd</li>
-                  <li>Mercado e Operações Imobiliárias - ies</li>
-                  <li>Planejamento Urbano e Ambiental - sg</li>
-                  <li>Direito Imobiliário -ies</li>
-                  <li>Estratégia de Marketing em Negócios Imobiliários - ies</li>
-                  <li>Estagio de TTI</li>
-                  <li>Trabalho de Conclusão de Curso   de TTI</li>
-                  <li>Total do curso</li> 
-                  <li>Topicos Especiais - sg</li>
-                  <li>Avaliação de Imoveis - ies</li>
+                  <li>Ingles Avançado - Pratico  Nac / Reg  - dr</li>
+                  <li>Primeiros Socorros - sg</li> 
+                  <li>Plano de Negocio</li>
+                  <li>Projeto Pratico em Turismo III</li>
+                  <li>Trabalho de Conclusão de Curso de Guia de Turismo  </li>
                 </ul>
               </PooperWrapper>
             </div>
@@ -92,42 +93,44 @@ export default function SectionPopper() {
           <Fade {...TransitionProps} timeout={350}>
             <div className={classes.paper}>
               <PooperWrapper>
-                <h2>Metodologia e Certificação de acordo com a RESOLUÇÃO CNE/CP Nº 1, 
-                  DE 5 DE JANEIRO DE 2021, que define as Diretrizes Curriculares 
-                  Nacionais Gerais para a Educação Profissional e Tecnológica.
-                </h2>
+                <a style={{color: 'white'}} href="Metodologia e Certificação de acordo com a RESOLUÇÃO CNE/CP Nº 1, DE 5 DE JANEIRO DE 2021, que define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica." target="_blank" rel="noopener noreferrer">Metodologia e Certificação de acordo com a RESOLUÇÃO CNE/CP Nº 1, 
+                  DE 5 DE JANEIRO DE 2021, que define as Diretrizes Curriculares Nacionais
+                  Gerais para a Educação Profissional e Tecnológica.
+                </a>
+
                 <h2>Requisitos para Matrícula</h2>
-                <p>Conhecer o modelo de Certificação  aplicado pela Instituição Certificadora 
-                   Os documentos comprobatórios devem ser entregues até a conclusão do Curso
-                  Verifique a documentação obrigatória
-                </p>
+                <p>Conhecer o modelo de Certificação  aplicado pela Instituição Certificadora</p>
+                <p>Os documentos comprobatórios devem ser entregues até a conclusão do Curso</p>
+                <p>Verifique a documentação obrigatória</p>
+
                 <h2>Metodologia de Ensino</h2>
                 <p>
-                  A Metodologia de Ensino esta baseada no aprendizado direcionado,
-                  onde o aluno possui um Guia de Estudo visando auxiliar em sua 
-                  formação profissional. A qual inclui varias Certificações e 
-                  Formações Profissionais, durante a busca por sua Habilitação 
-                  Técnica desejada, fornecendo instrumentos de comprovação de sua 
-                  qualificação e evolução profissional.
+                  A Metodologia de Ensino esta baseada no aprendizado direcionado, onde o 
+                  aluno possui um Guia de Estudo visando auxiliar em sua formação profissional.
+                  A qual inclui varias Certificações e Formações Profissionais, durante a 
+                  busca por sua Habilitação Técnica desejada, fornecendo instrumentos de
+                   comprovação de sua qualificação e evolução profissional.
                 </p>
                 <p>
-                O aluno apos a efetivação da matricula possui acesso ao Curso Técnico 
-                referencia escolhido, o qual é composto por cursos isolados que referenciam 
-                os componentes curriculares do Curso Técnico escolhido.
+                O aluno apos a efetivação da matricula possui acesso ao Curso Técnico referencia
+                 escolhido, o qual é composto por cursos isolados que referenciam os 
+                 componentes curriculares do Curso Técnico escolhido.
                 </p>
                 <p>
-                Todo o processo on-line é executado com Tutoria e Suporte, fornecendo 
-                todos os instrumentos de apoio para o aprendizado. Ao termino de cada 
-                Curso Isolado (media superior ou igual  a 6,0), o aluno é Certificado e 
-                pode agendar sua avaliação presencial em uma Unidade Remota . Clique aqui 
-                e Verifique a Unidade mais próxima .
+                Todo o processo on-line é executado com Tutoria e Suporte, fornecendo
+                 todos os instrumentos de apoio para o aprendizado. Ao termino de cada 
+                 Curso Isolado (media superior ou igual  a 6,0), o aluno é Certificado
+                  e pode agendar sua avaliação presencial em uma Unidade Remota .
+                   Clique aqui e Verifique a Unidade mais próxima .
                 </p>
                 <p>
-                  Ao concluir todos os componentes curriculares, o aluno(a) poderá 
-                  solicitar seu Diploma Técnico (Modelo de Diploma), devidamente registrado 
-                  no Sistema de Consulta Pública de Autenticidade de Diplomas e Certificados 
-                  do MEC – SISTEC. Informações de Diploma
+                Ao concluir todos os componentes curriculares, o aluno(a)
+                 poderá solicitar seu Diploma Técnico (Modelo de Diploma),
+                  devidamente registrado no Sistema de Consulta Pública de
+                   Autenticidade de Diplomas e Certificados do MEC – SISTEC.
+                    Informações de Diploma
                 </p>
+
                 <h2>Instituição Certificadora</h2>
                 <p>
                   Os Cursos Técnicos à Distância oferecidos pelo EAD Técnico, 
@@ -137,15 +140,17 @@ export default function SectionPopper() {
                   e a Distancia pela  Portaria nº 1175/2018-SEEC/GS.
                 </p>
                 <h2>Requisitos para Certificação</h2>
-                <p>
-                  Ter sido aprovado em todos os componentes curriculares com média 
-                   superior ou igual  a 6,0 (seis) / durante a pandemia do  COVID 19  
-                   média superiro ou igual a 8,0 (oito) Ter sido aprovado no Trabalho de 
-                   Conclusão de Curso com média superior a 6,0 (seis) Enviar Cópia do RG e 
-                   do CPF autenticados Enviar Comprovante de Residência Enviar Cópia do 
-                   Histórico Escolar e do Certificado de Conclusão do Ensino Médio (2º Grau) 
-                   autenticados
+                <p>Ter sido aprovado em todos os componentes curriculares com média 
+                  superior ou igual  a 6,0 (seis) / durante a pandemia do  COVID 19  
+                  média superiro ou igual a 8,0 (oito)
                 </p>
+                <p>Ter sido aprovado no Trabalho de Conclusão de Curso com
+                   média superior a 6,0 (seis)
+                </p>
+                <p>Enviar Cópia do RG e do CPF autenticados</p>
+                <p>Enviar Comprovante de Residência</p>
+                <p>Enviar Cópia do Histórico Escolar e do
+                   Certificado de Conclusão do Ensino Médio (2º Grau) autenticados</p>
               </PooperWrapper>
             </div>
           </Fade>
