@@ -26,7 +26,7 @@ const Header = ({ mode, toggleMode }) => (
       <h2>com nosso curso de:</h2>
       <h3>
         Técnico em <br />
-        GUIA DE TURÍSMO NACIONAL/REGIONAL <br />
+        GUIA DE TURISMO NACIONAL/REGIONAL <br />
         Totalmente EAD
       </h3>
     </div>
