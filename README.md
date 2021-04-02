@@ -357,4 +357,5 @@ export default SEO
 
 The deploy can be easily done on [Netlify](https://www.netlify.com/). In your account, simply create a new site from the Git repository. Select the `main` branch for production and `develop` for a staging environment. Netlify will recognize the `gatsby build` command and publish the `public` directory. Voilà! a Continuous Deployment (CD) is set.
 #   t r a n s a c o e s - i m o b i l i a r i a s  
+ #   g u i a - d e - t u r i s m o - n a c i o n a l - r e g i o n a l  
  
